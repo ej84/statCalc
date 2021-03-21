@@ -1,10 +1,21 @@
-## Statistical Calculator 
+# Statistical Calculator - IS 218
+
+## Developers
+* Lennart Lewis - lhl7@njit.edu 
+* Louis Delarmente - ld57@njit.edu
+* Richard Jeong - ej84@njit.edu
 ___
 
-### Developers 
+## Project Outline 
 
-* Richard Jeong 
 
-* Lennart Lewis
+## Section Break Up
+Richard Jeong
+* 
 
-___
+* TBD
+
+## Changelog
+
+### 3/21/2021
+Lennart - Created this repository for initialization with README and .idea folder.
