@@ -2,7 +2,6 @@
 
 ## Developers
 * Lennart Lewis - lhl7@njit.edu 
-* Louis Delarmente - ld57@njit.edu
 * Richard Jeong - ej84@njit.edu
 ___
 
