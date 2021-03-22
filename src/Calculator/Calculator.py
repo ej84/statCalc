@@ -30,8 +30,8 @@ class Calculator:
         self.result = Divide.divide(a, b)
         return self.result
 
-    def power(self, a):
-        self.result = Square.square(a)
+    def power(self, a, b):
+        self.result = Square.square(a, b)
         return self.result
 
     def rt(self, a):

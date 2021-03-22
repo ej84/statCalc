@@ -1,5 +1,8 @@
+import math
+
+
 class Square:
 
     @staticmethod
-    def square(a):
-        return float(a) ** float(a)
+    def square(a, b):
+        return math.pow(a, b)
