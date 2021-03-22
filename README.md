@@ -10,7 +10,12 @@ ___
 
 ## Section Break Up
 Richard Jeong
-* 
+* Basic classes for Calculator and math operations
+* Sampling population
+
+
+Lennart Lewis
+* Descriptive Statistics functions
 
 * TBD
 
