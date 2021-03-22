@@ -29,4 +29,4 @@ Lennart - Created this repository for initialization with README and .idea folde
 Richard - Created Calculator for instance class and Operations for basic math functions.
 
 ### 3/22/2021
-Richard - Crated test_Calculator.
+Richard - Crated test directory and tested Calculator and Operations.
