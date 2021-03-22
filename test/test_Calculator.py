@@ -28,6 +28,9 @@ class CalculatorTestCase(unittest.TestCase):
     def test_root(self):
         self.assertEqual(self.calculator.rt(25), 5)
 
+    def test_log(self):
+        self.assertEqual(self.calculator.log(10, 1), 0)
+
 
 if __name__ == '__main__':
     unittest.main()
