@@ -1,4 +1,5 @@
-
+from src.DescriptiveStatistics.zscore import Zscore
+from src.DescriptiveStatistics.std import Std
 
 
 class MarginOfError:
