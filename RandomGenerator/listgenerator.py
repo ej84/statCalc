@@ -22,4 +22,4 @@ class ListGenerator:
     @staticmethod
     def listseeded(seed, numbers, data):
         random.seed(seed)
-        return ListGenerator.listselected(seed, data)
+        return ListGenerator.listselected(numbers, data)

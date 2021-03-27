@@ -7,7 +7,7 @@ class RandNums:
         return random.randint(minimum, maximum)
 
     @staticmethod
-    def randseed(seed, minimum, maximum):
+    def randumseed(seed, minimum, maximum):
         random.seed(seed)
         return RandNums.randnums(minimum, maximum)
 
@@ -16,6 +16,6 @@ class RandNums:
         return random.uniform(minimum, maximum)
 
     @staticmethod
-    def randumseedfloat(seed, minimum, maximum):
+    def randfloatseed(seed, minimum, maximum):
         random.seed(seed)
         return RandNums.randnumfloat(minimum, maximum)
