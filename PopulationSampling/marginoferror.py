@@ -5,7 +5,7 @@ from src.DescriptiveStatistics.std import Std
 class MarginOfError:
 
     @staticmethod
-    def marginoferror(seed, data):
-        zscore = Zscore.zscore(seed, data)
+    def marginoferror(data):
+        zscore = Zscore.zscore(data)
         std = Std.std(data)
         return zscore * std

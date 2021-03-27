@@ -18,7 +18,12 @@ class PopulationTestCase(unittest.TestCase):
         sample_standard_err = scipy.stats.sem(sample_list)
         ci = Confidence.confidence_interval(c, df, sample_mean, sample_standard_err)
         self.assertEqual(ci, Confidence.confidence_interval(c, df, sample_mean, sample_standard_err))
-        print(str(ci) + " " + str(Confidence.confidence_interval(c, df, sample_mean, sample_standard_err)))
+
+
+    def test_marinoferror(self):
+        sample_list = [1.11, 2.34, 3.91, 4.22, 5.12]
+        me = MarginOfError.marginoferror(sample_list)
+        self.assertEqual(me.all(), MarginOfError.marginoferror(sample_list).all())
 
 
 if __name__ == '__main__':
