@@ -16,7 +16,7 @@ class OperationsTestCase(unittest.TestCase):
     def test_subtract(self):
         self.assertEqual(Subtract.subtract(20, 5), 15)
 
-    def test_multipy(self):
+    def test_multiply(self):
         self.assertEqual(Multiply.multiply(10, 100), 1000)
 
     def test_divide(self):
