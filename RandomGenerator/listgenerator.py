@@ -5,7 +5,7 @@ class ListGenerator:
 
     @staticmethod
     def listselect(data):
-        random.choice(data)
+        return random.choice(data)
 
     @staticmethod
     def listseed(seed, data):
