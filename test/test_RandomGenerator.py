@@ -4,7 +4,6 @@ from RandomGenerator.randnums import RandNums
 from RandomGenerator.randlist import RandList
 from RandomGenerator.listgenerator import ListGenerator
 
-
 class RandomTestCase(unittest.TestCase):
 
     def setUp(self) -> None:
