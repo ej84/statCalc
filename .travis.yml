@@ -2,6 +2,9 @@ language: python
 python:
   - "3.9"
 
+before_install:
+  - "pip install -U pip"
+  - "python setup.py install"
 
 # command to install dependencies
 install:
@@ -9,3 +12,4 @@ install:
 # command to run tests
 script:
   - pytest
+
