@@ -10,6 +10,10 @@ from PopulationSampling.simpleRandom import SimpleRandom
 
 class PopulationTestCase(unittest.TestCase):
 
+    def test_simple_random(self):
+        s_list = ['kiwi', 'mango', 'peach']
+        SimpleRandom.random_sampling(s_list, 2)
+
     def test_confidence_interval(self):
         sample_list = [1, 2, 3, 4, 5]
         c = 0.95
